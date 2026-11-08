@@ -148,7 +148,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 
 .section-title {
@@ -196,6 +196,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  display: block;
 }
 
 .card-body {
@@ -258,8 +259,7 @@ body {
   cursor: pointer;
 }
 
-
-/* 8. Харилцагч байгууллагууд */
+/* 7. Харилцагч байгууллагууд */
 .partners-section {
   background-color: white;
   border-bottom: 1px solid #e2e8f0;
@@ -270,7 +270,7 @@ body {
 
 .partners-title {
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #1e293b;
 }
 
@@ -295,6 +295,7 @@ body {
   justify-content: center;
   gap: 8px;
   min-width: 140px;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .partner-item:hover {
@@ -306,6 +307,7 @@ body {
   max-width: 120px;
   max-height: 45px;
   object-fit: contain;
+  display: block;
 }
 
 .partner-name {
@@ -320,7 +322,7 @@ body {
   margin-top: 15px;
 }
 
-/* 9. Мэдээлэл авах ба Захиалгат сургалтууд */
+/* 8. Мэдээлэл авах ба Захиалгат сургалтууд */
 .info-section {
   display: flex;
   gap: 30px;
@@ -383,7 +385,7 @@ body {
   font-size: 12px;
 }
 
-/* 10. Хөл хуудас (Footer) */
+/* 9. Хөл хуудас (Footer) */
 .footer {
   background-color: #0f172a;
   color: #94a3b8;
